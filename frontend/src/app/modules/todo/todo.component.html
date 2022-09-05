@@ -1,0 +1,9 @@
+<div class="todo-card">
+  <h4>{{todo.title}}</h4>
+  <p>{{todo.status}}</p>
+  <p>{{todo.description}}</p>
+  <p>estimated time needed: {{todo.estimatedTimeInSeconds? todo.estimatedTimeInSeconds/60+'min' :'-'}}</p>
+  <p>has to be done before: {{getFormattedDate(todo.deadline)}}</p>
+  <p>created: {{getFormattedDate(todo.creationDate)}}</p>
+  <button (click)="delete()">Delete</button>
+</div>

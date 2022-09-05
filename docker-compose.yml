@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  todo_database:
+    image: mariadb
+    container_name: todo_database
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: todoDatabase
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - 3306:3306
+    volumes:
+      - todo_database_volume:/var/lib/mysql
+volumes:
+  todo_database_volume:
+
+
