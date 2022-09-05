@@ -7,7 +7,8 @@
 3. (Optional )The Backend Project uses Lombok, so it is recommended to install a Lombok Plugin for your IDE.
 4. to start the MariaDb Database run '''docker-compose up''' in the Root Folder of the project.
 5. to start the Backend run ''':backend:bootRun''' in the Root Folder of the project.
-6. to start the Frontend run '''npm start''' in the frontend directory of the project.
+6. to install the Frontend run '''npm install''' in the frontend directory of the project.
+7. to start the Frontend run '''npm start''' in the frontend directory of the project.
 
 You can now access the Frontend under http://localhost:4200 and the api is running under http://localhost:8080/api.
 

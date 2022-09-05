@@ -10,6 +10,7 @@ import java.time.Instant;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Builder
 @Entity
 public class Todo {
     @Id

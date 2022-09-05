@@ -33,7 +33,7 @@ public class TodoService {
         return todoRepository.save(todo);
     }
 
-    public void deleteById(long id) {
+    public void deleteById(Long id) {
         todoRepository.deleteById(id);
     }
 
