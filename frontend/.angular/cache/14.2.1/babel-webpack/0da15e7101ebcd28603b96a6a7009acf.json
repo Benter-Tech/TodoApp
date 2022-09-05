@@ -1,1 +1,0 @@
-{"ast":null,"code":"export const environment = {\n  production: true,\n  baseUrl: 'http://192.168.0.21:8080'\n};","map":null,"metadata":{},"sourceType":"module"}
