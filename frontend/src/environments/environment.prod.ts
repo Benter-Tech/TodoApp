@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'http://development.benter.tech:8080'
+  baseUrl: 'http://localhost:8080'
 };
