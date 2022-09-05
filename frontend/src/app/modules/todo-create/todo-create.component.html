@@ -1,0 +1,20 @@
+<p>todo-create works!</p>
+<div>
+  <label for="title">Title:</label>
+  <br>
+  <input type="text" id="title" name="title" [(ngModel)]="title">
+  <br>
+  <label for="description">Description:</label>
+  <br>
+  <input type="text" id="description" name="description" [(ngModel)]="description">
+  <br>
+  <label for="estimatedTimeNeeded">Estimanted Time needed in Min:</label>
+  <br>
+  <input type="number" min="0" id="estimatedTimeNeeded" name="estimatedTimeNeeded" [(ngModel)]="estimatedTime">
+  <br>
+  <label for="dueDate">Deadline:</label>
+  <br>
+  <input type="datetime-local" id="dueDate" name="dueDate" [(ngModel)]="deadline">
+  <br>
+  <button (click)="create()">Create</button>
+</div>

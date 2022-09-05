@@ -1,0 +1,7 @@
+export enum Status {
+  CREATED = 'CREATED',
+  DELAYED= 'DELAYED',
+  IN_PROGRESS= 'IN_PROGRESS',
+  BLOCKED= 'BLOCKED',
+  DONE= 'Done'
+}

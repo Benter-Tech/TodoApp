@@ -1,0 +1,6 @@
+<h1>Your Todos:</h1>
+<button routerLink="add">Add new Todo</button>
+<div *ngFor="let todo of todos">
+  <app-todo [todo]="todo" (deleteAction)="handleTodoDeletion($event)"></app-todo>
+</div>
+
